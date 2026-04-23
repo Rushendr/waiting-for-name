@@ -1,0 +1,17 @@
+{
+  "overview": "InvoiceFast is an invoice generation tool with dynamic advertisement banners on all pages and navigation menus linking to related tools and resources.",
+  "features": [
+    "Invoice generation and management",
+    "Top and bottom advertisement banners on all pages loaded via external URLs",
+    "Navigation menu with Home, Other Tools, Crypto Tools, and Contact Us links",
+    "Sticky footer always at bottom with bottom ad banner placed above it"
+  ],
+  "category": "productivity",
+  "tags": [
+    "invoice",
+    "business",
+    "productivity",
+    "advertising"
+  ],
+  "last_updated": "2026-04-23T12:35:12.036Z"
+}
