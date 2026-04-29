@@ -19,9 +19,6 @@ const BOTTOM_AD = {
 
 export function Footer() {
   const year = new Date().getFullYear();
-  const hostname =
-    typeof window !== "undefined" ? window.location.hostname : "";
-  const caffeineUrl = `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(hostname)}`;
 
   return (
     <footer className="bg-card border-t border-border mt-auto">
@@ -71,17 +68,9 @@ export function Footer() {
           </nav>
         </div>
 
-        {/* Caffeine branding */}
+        {/* Branding */}
         <div className="mt-4 pt-4 border-t border-border text-center text-xs text-muted-foreground">
-          Built with love using{" "}
-          <a
-            href={caffeineUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            caffeine.ai
-          </a>
+          © 2025 TIGOY.com | Huncity.com. All rights reserved.
         </div>
       </div>
     </footer>

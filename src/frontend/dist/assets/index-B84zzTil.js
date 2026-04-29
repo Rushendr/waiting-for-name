@@ -18704,8 +18704,6 @@ const BOTTOM_AD = {
 };
 function Footer() {
   const year = (/* @__PURE__ */ new Date()).getFullYear();
-  const hostname = typeof window !== "undefined" ? window.location.hostname : "";
-  const caffeineUrl = `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(hostname)}`;
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "bg-card border-t border-border mt-auto", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       AdBanner,
@@ -18750,20 +18748,7 @@ function Footer() {
           }
         )
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-4 pt-4 border-t border-border text-center text-xs text-muted-foreground", children: [
-        "Built with love using",
-        " ",
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: caffeineUrl,
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "text-primary hover:underline",
-            children: "caffeine.ai"
-          }
-        )
-      ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-4 pt-4 border-t border-border text-center text-xs text-muted-foreground", children: "© 2025 TIGOY.com | Huncity.com. All rights reserved." })
     ] })
   ] });
 }
@@ -38700,7 +38685,7 @@ function(t2) {
   var h2 = l2.getContext("2d");
   h2.fillStyle = "#fff", h2.fillRect(0, 0, l2.width, l2.height);
   var f2 = { ignoreMouse: true, ignoreAnimation: true, ignoreDimensions: true }, d2 = this;
-  return (i.canvg ? Promise.resolve(i.canvg) : __vitePreload(() => import("./index.es-DYH1yE2p.js"), true ? [] : void 0)).catch(function(t3) {
+  return (i.canvg ? Promise.resolve(i.canvg) : __vitePreload(() => import("./index.es-DJ3ut1D6.js"), true ? [] : void 0)).catch(function(t3) {
     return Promise.reject(new Error("Could not load canvg: " + t3));
   }).then(function(t3) {
     return t3.default ? t3.default : t3;
